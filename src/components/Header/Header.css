@@ -1,0 +1,27 @@
+.title {
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight:bolder;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    color: #2a6592;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .divider {
+    margin: 10px;
+    width: 100%;
+    background-color: grey;
+  }
+
+  @media (max-width: 800px) {
+    .title{
+        font-size: 8vw;
+        font-weight: bolder;
+    }
+  }
